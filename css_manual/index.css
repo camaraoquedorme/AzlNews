@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap'); */
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -9,15 +10,17 @@ body {
 }
 
 ul li {
-  padding: 0px 10px 0px 10px;
+  /* 10px -> 0.8rem */
+  padding-right: 0.8rem;
 }
 
 .form-link-manual {
-  color: black;
+  color: #212121;
   font-weight: bold;
-  transition: .30s;
+  transition: 0.3s;
 }
 
 .form-link-manual:hover {
-  transform: scale(1.3);
+  /* 1.3 -> 1.1 */
+  transform: scale(1.1);
 }
