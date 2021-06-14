@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.font-h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+ul li {
+  padding: 0px 10px 0px 10px;
+}
+
+.form-link-manual {
+  color: black;
+  font-weight: bold;
+  transition: .30s;
+}
+
+.form-link-manual:hover {
+  transform: scale(1.3);
+}
